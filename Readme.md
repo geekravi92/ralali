@@ -11,3 +11,9 @@ Build a URL shortner for Ralali
 * User Story: If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.
 
 * User Story: When I visit that shortened URL, it will redirect me to my original link.
+
+## Prerequirsite
+
+* Redis, Node.js have to be installed
+* Run *npm i* before running the app
+* The app support only a POST request for now
